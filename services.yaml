@@ -1,0 +1,4 @@
+services:
+  OxidEsales\EshopCommunity\Internal\Framework\Logger\Factory\LoggerFactoryInterface:
+    class: OxidEsales\LogstashLogger\Logger\LogstashLoggerFactory
+    public: false
